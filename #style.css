@@ -29,3 +29,64 @@ body{
 .titulo-secundario{
     font-size: 24px
 }
+.conteudo-senha{
+    margin-top:80px;
+    background: var(--fundo-senha);
+    padding: 24x;
+    border-bottom: 6px solid var(--borda);
+
+}
+
+#campo-senha{
+    width: 70%;
+    background-color: var(--fundo-senha);
+    border: none;
+    color: var(--branco);
+    font-size: 40px;
+
+
+}
+
+.conteudo{ 
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.parametro{
+    background-color: var(--fundo-texto);
+    border: 2px solid var(--borda);
+    margin-top: 32px;
+
+}
+
+.parametro-titulo{
+    font-family: var(--roboto-mono);
+    font-size:28px;
+    padding:24px;
+
+}
+
+.parametro-senha_titulo{
+    font-size:24px;
+}
+
+.parametro-coluna_senha{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+@media screen and (min-width: 768px) {
+    .parametro-coluna_senha{
+        flex-direction: row;
+    
+    }
+}
+
+.parametro-senha{
+    width: 50%;
+    margin: 0 auto;
+}
+
